@@ -1,0 +1,376 @@
+[01:54:07] [main/INFO]: Loading Minecraft 1.21.7 with Fabric Loader 0.16.14
+[01:54:09] [main/INFO]: Loading 112 mods:
+	- c2me 0.3.4.0.0+1.21.8
+	   |-- c2me-base 0.3.4.0.0+1.21.8
+	   |-- c2me-client-uncapvd 0.3.4.0.0+1.21.8
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.4.0.0+1.21.8
+	   |-- c2me-fixes-general-threading-issues 0.3.4.0.0+1.21.8
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.4.0.0+1.21.8
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.4.0.0+1.21.8
+	   |-- c2me-notickvd 0.3.4.0.0+1.21.8
+	   |-- c2me-opts-allocs 0.3.4.0.0+1.21.8
+	   |-- c2me-opts-chunkio 0.3.4.0.0+1.21.8
+	   |-- c2me-opts-dfc 0.3.4.0.0+1.21.8
+	   |-- c2me-opts-math 0.3.4.0.0+1.21.8
+	   |-- c2me-opts-scheduling 0.3.4.0.0+1.21.8
+	   |-- c2me-opts-worldgen-general 0.3.4.0.0+1.21.8
+	   |-- c2me-opts-worldgen-vanilla 0.3.4.0.0+1.21.8
+	   |-- c2me-rewrites-chunk-serializer 0.3.4.0.0+1.21.8
+	   |-- c2me-rewrites-chunk-system 0.3.4.0.0+1.21.8
+	   |-- c2me-rewrites-chunkio 0.3.4.0.0+1.21.8
+	   |-- c2me-server-utils 0.3.4.0.0+1.21.8
+	   |-- c2me-threading-lighting 0.3.4.0.0+1.21.8
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cardinal-components 7.0.0-beta.1
+	   |-- cardinal-components-base 7.0.0-beta.1
+	   |-- cardinal-components-block 7.0.0-beta.1
+	   |-- cardinal-components-chunk 7.0.0-beta.1
+	   |-- cardinal-components-entity 7.0.0-beta.1
+	   |-- cardinal-components-item 7.0.0-beta.1
+	   |-- cardinal-components-level 7.0.0-beta.1
+	   |-- cardinal-components-scoreboard 7.0.0-beta.1
+	   \-- cardinal-components-world 7.0.0-beta.1
+	- chunky 1.4.40
+	- cloth-config 19.0.147
+	   \-- cloth-basic-math 0.6.1
+	- entityculling 1.8.2
+	   |-- transition 1.0.3
+	   \-- trender 1.0.5
+	- fabric-api 0.129.0+1.21.7
+	   |-- fabric-api-base 0.4.64+9ec45cd86c
+	   |-- fabric-api-lookup-api-v1 1.6.100+946bf4c36c
+	   |-- fabric-biome-api-v1 16.0.11+946bf4c36c
+	   |-- fabric-block-api-v1 1.1.3+946bf4c36c
+	   |-- fabric-block-view-api-v2 1.0.31+946bf4c36c
+	   |-- fabric-command-api-v2 2.2.53+946bf4c36c
+	   |-- fabric-content-registries-v0 10.0.18+946bf4c36c
+	   |-- fabric-convention-tags-v1 2.1.40+7f945d5b6c
+	   |-- fabric-convention-tags-v2 2.15.5+eb5df52f6c
+	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c36c
+	   |-- fabric-data-attachment-api-v1 1.8.10+946bf4c36c
+	   |-- fabric-data-generation-api-v1 23.2.4+55e55d296c
+	   |-- fabric-dimensions-v1 4.0.19+946bf4c36c
+	   |-- fabric-entity-events-v1 2.1.1+c9e472736c
+	   |-- fabric-events-interaction-v0 4.0.23+946bf4c36c
+	   |-- fabric-game-rule-api-v1 1.0.73+c64c9c5b6c
+	   |-- fabric-item-api-v1 11.4.3+946bf4c36c
+	   |-- fabric-item-group-api-v1 4.2.13+946bf4c36c
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c36c
+	   |-- fabric-lifecycle-events-v1 2.6.3+db4dfd856c
+	   |-- fabric-loot-api-v2 3.0.55+3f89f5a56c
+	   |-- fabric-loot-api-v3 2.0.2+946bf4c36c
+	   |-- fabric-message-api-v1 6.1.1+946bf4c36c
+	   |-- fabric-model-loading-api-v1 5.2.5+946bf4c36c
+	   |-- fabric-networking-api-v1 5.0.1+946bf4c36c
+	   |-- fabric-object-builder-api-v1 21.1.7+946bf4c36c
+	   |-- fabric-particles-v1 4.1.7+946bf4c36c
+	   |-- fabric-recipe-api-v1 8.1.14+946bf4c36c
+	   |-- fabric-registry-sync-v0 6.1.27+946bf4c36c
+	   |-- fabric-renderer-api-v1 7.0.2+946bf4c36c
+	   |-- fabric-renderer-indigo 4.0.2+946bf4c36c
+	   |-- fabric-rendering-fluids-v1 3.1.30+fa6cb72b6c
+	   |-- fabric-rendering-v1 12.4.0+e8d43c766c
+	   |-- fabric-resource-conditions-api-v1 5.0.24+946bf4c36c
+	   |-- fabric-resource-loader-v0 3.1.11+946bf4c36c
+	   |-- fabric-screen-api-v1 2.1.0+277ecf7d6c
+	   |-- fabric-screen-handler-api-v1 1.3.136+946bf4c36c
+	   |-- fabric-sound-api-v1 1.0.42+946bf4c36c
+	   |-- fabric-tag-api-v1 1.2.1+946bf4c36c
+	   |-- fabric-transfer-api-v1 6.0.5+946bf4c36c
+	   \-- fabric-transitive-access-wideners-v1 6.4.1+ac3e15d16c
+	- fabric-language-kotlin 1.13.6+kotlin.2.2.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- ferritecore 8.0.0
+	- jade 19.3.2+fabric
+	- java 21
+	- lithium 0.18.0+mc1.21.7
+	- minecraft 1.21.7
+	- mr_hardcore_reviveplus 1.8.6
+	- mr_player_revive 1.9+1.21.5-1.21.8+Datapack
+	- silk-all 1.11.2
+	   |-- silk-commands 1.11.2
+	   |-- silk-core 1.11.2
+	   |-- silk-game 1.11.2
+	   |-- silk-igui 1.11.2
+	   |-- silk-nbt 1.11.2
+	   |-- silk-network 1.11.2
+	   \-- silk-persistence 1.11.2
+	- sound_physics_remastered 1.21.7-1.4.14
+	- veinminer 2.5.0
+	   |-- de_miraculixx_core_dev 2.5.0
+	   \-- fabric-permissions-api-v0 0.4.0
+[01:54:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/asdsad/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:54:10] [main/INFO]: Compatibility level set to JAVA_16
+[01:54:10] [main/INFO]: Compatibility level set to JAVA_17
+[01:54:10] [main/INFO]: Compatibility level set to JAVA_21
+[01:54:10] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[01:54:10] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[01:54:10] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[01:54:10] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[01:54:10] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[01:54:10] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:54:11] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[01:54:11] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[01:54:11] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[01:54:11] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[01:54:12] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[01:54:13] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:54:25] [main/INFO]: Initializing Silk
+[01:54:25] [main/INFO]: Veinminer Version: 2.5.0 (fabric)
+[01:54:26] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:54:27] [DefaultDispatcher-worker-2/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[01:54:30] [Worker-Main-1/ERROR]: Invalid path in mod resource-pack mr_hardcore_reviveplus: hcrplus:function/.DS_Store, ignoring
+[01:54:31] [main/INFO]: Loaded 1409 recipes
+[01:54:31] [main/INFO]: Loaded 1527 advancements
+[01:54:31] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.939 ms
+[01:54:31] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[01:54:31] [Server thread/INFO]: Starting minecraft server version 1.21.7
+[01:54:31] [Server thread/INFO]: Loading properties
+[01:54:31] [Server thread/INFO]: Default game type: SURVIVAL
+[01:54:31] [Server thread/INFO]: Generating keypair
+[01:54:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:54:31] [Server thread/INFO]: Using epoll channel type
+[01:54:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:54:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:54:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:54:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:54:32] [Server thread/INFO]: Preparing level "world"
+[01:54:32] [Server thread/INFO]: Enforcing safe world random access
+[01:54:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 734.5 ms
+[01:54:33] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[01:54:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 8.931 ms
+[01:54:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 14.01 ms
+[01:54:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:38] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:54:39] [minecraft_overworld - Light/INFO]: Preparing spawn area: 55%
+[01:54:39] [Server thread/INFO]: Time elapsed: 5944 ms
+[01:54:39] [Server thread/INFO]: Done (7.718s)! For help, type "help"
+[01:54:40] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[01:54:40] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[01:54:40] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[01:54:40] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[01:54:40] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[01:54:50] [Server thread/INFO]: tomyyss[/127.40.163.123:55693] logged in with entity id 2 at (1196.937984666259, 61.31995541199482, -1107.181238628893)
+[01:54:50] [Server thread/INFO]: tomyyss joined the game
+[01:54:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[01:55:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2481ms or 49 ticks behind
+[01:55:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@ac8b3ea[id=f43fab5c-20d6-33a9-9aa4-54d767efbbb6,name=wuachi_31,properties={}] lost connection: Disconnected
+[01:55:16] [Server thread/INFO]: wuachi_31[/127.118.114.244:40439] logged in with entity id 583 at (1207.7188218592482, 63.0, -1114.3107366495133)
+[01:55:16] [Server thread/INFO]: wuachi_31 joined the game
+[01:56:24] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[01:56:26] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[01:56:32] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[01:56:35] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[01:57:03] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[01:57:13] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[01:58:34] [Server thread/WARN]: wuachi_31 moved too quickly! 10.253858575768845,0.8322033533667508,0.8225050508308414
+[01:58:43] [Server thread/INFO]: Locating element minecraft:fortress took 5 ms
+[01:59:47] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[01:59:49] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[01:59:51] [Server thread/INFO]: tomyyss has made the advancement [A Terrible Fortress]
+[01:59:53] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[01:59:56] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[02:01:54] [Server thread/INFO]: tomyyss has made the advancement [Spooky Scary Skeleton]
+[02:02:00] [Server thread/INFO]: tomyyss has made the advancement [Into Fire]
+[02:05:39] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[02:05:39] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:06:07] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:06:19] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[02:06:37] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[02:06:37] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:06:47] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Creative Mode]
+[02:07:08] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Survival Mode]
+[02:07:13] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[02:07:14] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[02:07:20] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:07:22] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[02:07:54] [Server thread/INFO]: tomyyss fell from a high place
+[02:08:01] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:08:23] [Server thread/INFO]: [tomyyss: Teleported tomyyss to 1200.500000, 90.000000, 400.500000]
+[02:08:29] [Server thread/INFO]: [tomyyss: Teleported tomyyss to 1200.500000, 90.000000, -399.500000]
+[02:08:37] [Server thread/INFO]: [tomyyss: Teleported tomyyss to 1200.500000, 90.000000, -799.500000]
+[02:08:39] [Server thread/INFO]: [tomyyss: Teleported tomyyss to 1200.500000, 90.000000, -1199.500000]
+[02:08:43] [Server thread/INFO]: [tomyyss: Teleported tomyyss to 1200.500000, 90.000000, -1199.500000]
+[02:08:50] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:23:20] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[02:23:21] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:23:24] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Creative Mode]
+[02:23:26] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:23:29] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[02:23:34] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[02:23:38] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Survival Mode]
+[02:24:00] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[02:24:01] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:24:02] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[02:26:39] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[02:28:38] [Server thread/INFO]: Locating element minecraft:stronghold took 303 ms
+[02:29:01] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[02:29:18] [Server thread/INFO]: [tomyyss: Summoned new Lightning Bolt]
+[02:29:18] [Server thread/INFO]: Villager class_1646['Farmer'/12258, l='ServerLevel[world]', x=1198.47, y=64.94, z=-883.32] was struck by lightning class_1538['Lightning Bolt'/14080, l='ServerLevel[world]', x=1200.10, y=69.00, z=-880.96].
+[02:29:18] [Server thread/INFO]: Villager class_1646['Farmer'/12257, l='ServerLevel[world]', x=1198.31, y=64.94, z=-882.26] was struck by lightning class_1538['Lightning Bolt'/14080, l='ServerLevel[world]', x=1200.10, y=69.00, z=-880.96].
+[02:33:07] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[02:33:08] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[02:33:13] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:33:16] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[02:35:04] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[02:35:04] [Server thread/INFO]: Locating element minecraft:stronghold took 0 ms
+[02:35:09] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[02:37:32] [Server thread/INFO]: wuachi_31 has made the advancement [Eye Spy]
+[02:38:03] [Server thread/INFO]: wuachi_31 lost connection: Disconnected
+[02:38:03] [Server thread/INFO]: wuachi_31 left the game
+[02:38:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30521ms or 610 ticks behind
+[02:38:03] [Server thread/INFO]: tomyyss lost connection: Disconnected
+[02:38:03] [Server thread/INFO]: tomyyss left the game
+[02:38:03] [Server thread/WARN]: handleDisconnection() called twice
+[02:38:58] [Server thread/INFO]: wuachi_31[/127.118.114.244:40049] logged in with entity id 18119 at (462.30000001192093, 29.88322278124012, -1999.699999988079)
+[02:38:58] [Server thread/INFO]: wuachi_31 joined the game
+[02:39:03] [Server thread/INFO]: tomyyss[/127.40.163.123:46993] logged in with entity id 18264 at (463.6262412090434, 30.3926947666916, -1997.5840835343863)
+[02:39:03] [Server thread/INFO]: tomyyss joined the game
+[02:39:07] [Server thread/INFO]: tomyyss has made the advancement [Eye Spy]
+[02:40:47] [Server thread/INFO]: [tomyyss: Made wuachi_31 no longer a server operator]
+[02:40:48] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:41:08] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:41:26] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[02:43:13] [Server thread/INFO]: tomyyss has made the advancement [The End?]
+[02:43:15] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[02:43:15] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[02:43:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2315ms or 46 ticks behind
+[02:43:15] [Server thread/INFO]: wuachi_31 has made the advancement [The End?]
+[02:45:24] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Creative Mode]
+[02:45:39] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Survival Mode]
+[02:45:46] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[02:45:52] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:46:32] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[02:46:37] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:49:17] [Server thread/INFO]: tomyyss has made the advancement [Free the End]
+[02:50:14] [Server thread/INFO]: wuachi_31 has made the advancement [Remote Getaway]
+[02:50:24] [Server thread/INFO]: tomyyss has made the advancement [Remote Getaway]
+[02:51:20] [Server thread/INFO]: Locating element minecraft:end_city took 0 ms
+[02:51:43] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:52:36] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Creative Mode]
+[02:52:37] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:52:44] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Survival Mode]
+[02:53:23] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:53:27] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:53:41] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:53:47] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:54:26] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:54:30] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:54:34] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:54:37] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:54:39] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:54:42] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:54:45] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:54:48] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:54:52] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:54:55] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:55:00] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:55:04] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:55:08] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:55:14] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:58:18] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:58:36] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:59:00] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[02:59:14] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[02:59:25] [Server thread/INFO]: tomyyss has made the advancement [The City at the End of the Game]
+[02:59:26] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[02:59:28] [Server thread/INFO]: wuachi_31 has made the advancement [The City at the End of the Game]
+[02:59:38] [Server thread/INFO]: tomyyss has reached the goal [Sky's the Limit]
+[03:00:06] [Server thread/INFO]: wuachi_31 lost connection: Disconnected
+[03:00:06] [Server thread/INFO]: wuachi_31 left the game
+[03:00:15] [Server thread/INFO]: wuachi_31[/127.118.114.244:34073] logged in with entity id 21601 at (371.1115643234971, 70.0, 1012.641202325198)
+[03:00:15] [Server thread/INFO]: wuachi_31 joined the game
+[03:00:24] [Server thread/INFO]: wuachi_31 has reached the goal [Sky's the Limit]
+[03:00:53] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:01:03] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Creative Mode]
+[03:01:20] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[03:01:26] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[03:01:35] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Survival Mode]
+[03:02:14] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[03:02:18] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[03:03:03] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[03:03:07] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:09] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:10] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:10] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:11] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:13] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:14] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:15] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:16] [Server thread/INFO]: wuachi_31 fell from a high place
+[03:03:27] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:32] [Server thread/INFO]: wuachi_31 was killed
+[03:03:32] [Server thread/INFO]: [tomyyss: Killed wuachi_31]
+[03:03:35] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:03:38] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[03:03:40] [Server thread/INFO]: [tomyyss: Set wuachi_31's game mode to Creative Mode]
+[03:03:42] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:05:25] [Server thread/INFO]: wuachi_31 has made the advancement [Local Brewery]
+[03:07:23] [Server thread/INFO]: [tomyyss: Made wuachi_31 a server operator]
+[03:07:55] [Server thread/INFO]: Locating element minecraft:end_city took 2 ms
+[03:08:02] [Server thread/INFO]: [wuachi_31: Teleported wuachi_31 to 368.500000, 113.006270, 1008.500000]
+[03:08:10] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:08:33] [Server thread/INFO]: [wuachi_31: Set own game mode to Adventure Mode]
+[03:08:35] [Server thread/INFO]: [wuachi_31: Set own game mode to Survival Mode]
+[03:09:26] [Server thread/INFO]: [wuachi_31: Set own game mode to Creative Mode]
+[03:09:45] [Server thread/INFO]: Locating element minecraft:end_city took 37 ms
+[03:09:50] [Server thread/INFO]: [wuachi_31: Teleported wuachi_31 to -2495.500000, 69.000000, 1968.500000]
+[03:09:51] [Server thread/WARN]: tomyyss moved too quickly! 4.011231949175681,0.0,10.123124249363627
+[03:10:00] [Server thread/INFO]: [tomyyss: Teleported tomyyss to wuachi_31]
+[03:10:18] [Server thread/INFO]: [tomyyss: Set own game mode to Spectator Mode]
+[03:10:19] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[03:12:01] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[03:12:40] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[03:13:24] [Server thread/INFO]: [wuachi_31: Set own game mode to Survival Mode]
+[03:13:47] [Server thread/WARN]: wuachi_31 moved too quickly! 16.79181002437349,-1.6340333374151044,-6.3979156980713014
+[03:15:08] [Server thread/INFO]: [tomyyss: Teleported wuachi_31 to tomyyss]
+[03:16:32] [Server thread/INFO]: [tomyyss: Set own game mode to Creative Mode]
+[03:16:41] [Server thread/INFO]: [tomyyss: Set own game mode to Survival Mode]
+[03:19:17] [Server thread/INFO]: wuachi_31 lost connection: Disconnected
+[03:19:17] [Server thread/INFO]: wuachi_31 left the game
+[03:19:18] [Server thread/INFO]: tomyyss lost connection: Disconnected
+[03:19:18] [Server thread/INFO]: tomyyss left the game
+[03:20:18] [Server thread/INFO]: Server empty for 60 seconds, pausing
